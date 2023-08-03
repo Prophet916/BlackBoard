@@ -102,8 +102,7 @@ namespace BlackBoard
                 }
                 if (index == 5)
                 {
-                    g.DrawLine(p, cX, cY, x, y)
-    ;
+                    g.DrawLine(p, cX, cY, x, y);
                 }
             }
         }
@@ -282,27 +281,6 @@ namespace BlackBoard
                     py = px;
                 }
             }
-            //if (paint)
-            //{
-            //    if (index == 1)
-            //    {
-            //        px = e.Location;
-            //        g.DrawLine(p, px, py);
-            //        py = px;
-            //    }
-            //    else if (index == 2)
-            //    {
-            //        px = e.Location;
-            //        // Erase by clearing the area with the background color
-            //        g.CompositingMode = System.Drawing.Drawing2D.CompositingMode.SourceCopy;
-            //        g.CompositingQuality = System.Drawing.Drawing2D.CompositingQuality.HighQuality;
-            //        g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            //        g.Clear(Color.FromArgb(255, 30, 30, 30)); // Use the background color to erase
-            //        g.CompositingMode = System.Drawing.Drawing2D.CompositingMode.SourceOver;
-            //        g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-            //        py = px;
-            //    }
-            //}
             pic.Refresh();
 
             x = e.X;
